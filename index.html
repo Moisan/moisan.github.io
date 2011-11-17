@@ -4,31 +4,32 @@ title: Thierry Moisan
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+  <div id="aboutMe">
+    <h1>About me</h1>
+    I'm a computer science student working on a master degree at <a href="www.ulaval.ca/">Université Laval</a>.
+    <h2>Contact</h2>
+    Thierry Moisan</br>
+    thierry.moisan.1@ulaval.ca
+  </div>
   
-  <h1>About me</h1>
-  My name is Thierry Moisan.
-
-  <h2>Contact</h2>
-  thierry.moisan.1@ulaval.ca
+  <div id="searchInterests">
+    <h1>Search interests</h1>
+    Je suis intéressé par la programmation par contraintes. Plus spécifiquement, les applications du parallélisme à des problèmes définies par contraintes.
+  </div>
   
-  <h1>Search interests</h1>
-    
-  <h1>Papers</h1>
+  <h1>Publications</h1>
   <h2>Workshop</h2>
-  <ul class="posts">
-    <li><span>19 Nov 2009</span> &raquo; <a href="http://rubyconf2009.confreaks.com/19-nov-2009-10-25-bert-and-ernie-scaling-your-ruby-site-with-erlang-tom-preston-werner.html">RubyConf 2009 Talk: BERT and Ernie: Scaling your Ruby site with Erlang</a></li>
-    <li><span>21 Aug 2009</span> &raquo; <a href="http://www.linux-mag.com/cache/7486/1.html">Linux Magazine: The GitHub Hall of Fame - Jekyll Review</a></li>
+  <h3>2011</h3>
+  <ul>
+    <li class="paper">
+      Thierry Moisan, Jonathan Gaudreault, and <a href="http://www.ift.ulaval.ca/~quimper">Claude-Guy Quimper</a>. <i>Parallel Discrepancy-based Search: An efficient and scalable search strategy for massively parallel supercomputers providing intrinsic load-balancing without communication.</i> In Proceedings of the Workshop on Parallel Methods for Constraint Solving (PMCS'11), held with 17th International Conference on Principles and Practice of Constraint Programming (CP'11), 2011.[<a href="publications/plds.pdf">paper</a>]
+    </li>
   </ul>
-  
-  <h1>Open Source Projects</h1>
-  <ul class="posts">
-    <li><a href="http://github.com/mojombo/grit/">Grit:</a> Object oriented Ruby bindings for Git (used by GitHub).</li>
-  </ul>
+  <!--
+      <h1>Open Source Projects</h1>
+      <ul class="posts">
+	<li><a href="http://github.com/mojombo/grit/">Grit:</a> Object oriented Ruby bindings for Git (used by GitHub).</li>
+      </ul>
+      -->
 </div>
-  
+
