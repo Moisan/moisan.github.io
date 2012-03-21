@@ -1,1 +1,0 @@
-It is automatically transformed by "Jekyll":http://github.com/mojombo/jekyll into a static site.
