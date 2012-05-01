@@ -12,15 +12,10 @@ html, body {
 
 
 body {
-    background-color: rgb(254,210,123);
-    /* background-color:  rgb(161,159,116); */
+    background-color: #6E86D6;
     font: 13.34px helvetica, arial, clean, sans-serif;
     *font-size: small;  
     text-align: center;
-}
-
-h1, h2, h3, h4, h5, h6 {
-/*font-size: 100%;*/
 }
 
 h1 {
@@ -38,8 +33,7 @@ p {
 }
 
 a {
-    color:rgb(72,98,91);
-
+   color: #50026E; 
 }
 
 a:hover {
@@ -79,7 +73,7 @@ width: 500px;
 }
 
 .title {
-    color: rgb(204,125,101);
+    color: #50026E;
     font-weight: bold;
     margin-bottom: 2em;
     margin-left: 15px;
@@ -88,7 +82,7 @@ width: 500px;
 #home {
     border-style: solid;
     border-width: 10px 10px 10px 10px;
-    border-color: rgb(161,98,91);/* rgb(150,98,0);*/
+    border-color: #50026E;
     border-radius: 15px;
 
     padding: 0 30px 20px 30px;
@@ -96,12 +90,8 @@ width: 500px;
     margin-bottom: 5em;
 }
 
-.contact-info {
-    /*text-align: center*/
-}
-
 .site .title a {
-    color: rgb(204,95,101);
+    color: #50026E;
     text-decoration: none;
 }
 
@@ -125,8 +115,6 @@ width: 500px;
 
 .site .footer {
     font-size: 80%;
-    /*color: #666;
-    border-top: 4px solid #eee;*/
     margin-top: 2em;
     height:1em;
     overflow: hidden;
@@ -135,10 +123,6 @@ width: 500px;
 .site .footer .contact {
     float: left;
     margin-right: 3em;
-}
-
-.site .footer .contact a {
-    color: #8085C1;
 }
 
 .site .footer .rss {
