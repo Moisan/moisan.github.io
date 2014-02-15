@@ -26,7 +26,7 @@
 	  I study under the supervision of <a href="http://www.ift.ulaval.ca/~quimper">Claude-Guy Quimper</a> and <a href="http://www.linkedin.com/in/jonathangaudreault"> Jonathan Gaudreault</a>.
 	  I'm part of the PPC laboratory at Université Laval.
 	  I'm also a <a href="https://www.cirrelt.ca/">CIRRELT</a> and <a href="http://www.forac.ulaval.ca/">FORAC</a> student.
-	  <h2>Contact</h2>
+	  <h2><i class="fa fa-phone"></i> Contact</h2>
 	  <table class="contact-info" width="" cellspacing="5" cellpadding="" border="0">
 	    <tr>
 	      <td><a href="mailto:thierry.moisan.1@ulaval.ca"><i class="fa fa-envelope"></i> thierry.moisan.1@ulaval.ca</a></td>
