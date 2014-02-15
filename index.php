@@ -22,10 +22,10 @@
       <div id="home">
 	<div id="aboutMe">
 	  <h1><i class="fa fa-user"></i> About me</h1>
-	  I'm a computer science PhD student at <a href="http://www.ulaval.ca/">Université Laval</a>.
+	  I'm a PhD candidate in computer science at <a href="http://www.ulaval.ca/">Université Laval</a>.
 	  I study under the supervision of <a href="http://www.ift.ulaval.ca/~quimper">Claude-Guy Quimper</a> and <a href="http://www.linkedin.com/in/jonathangaudreault"> Jonathan Gaudreault</a>.
 	  I'm part of the PPC laboratory at Université Laval.
-	  I'm also a <a href="https://www.cirrelt.ca/">CIRRELT</a> and <a href="http://www.forac.ulaval.ca/">FORAC</a> student.
+	  I'm also a <a href="http://www.forac.ulaval.ca/">FORAC</a> and <a href="https://www.cirrelt.ca/">CIRRELT</a> student.
 	  <h2><i class="fa fa-phone"></i> Contact</h2>
 	  <table class="contact-info" width="" cellspacing="5" cellpadding="" border="0">
 	    <tr>
@@ -47,19 +47,53 @@
 	</div>
 	
 	<h1><i class="fa fa-book"></i> Publications</h1>
+	<h2>Conference</h2>
+
+	<h3>2014</h3>
+	<ul>
+		<li class="paper">
+			Thierry Moisan, <a href="http://www.ift.ulaval.ca/~quimper">Claude-Guy Quimper</a>
+			 and <a href="http://www.linkedin.com/in/jonathangaudreault"> Jonathan Gaudreault</a>.
+			 <i>Parallel Depth-bounded Discrepancy Search</i>
+			 To appear in: Proceedings of the <a href="http://4c.ucc.ie/cpaior2014/home.html">11th International Conference on Integration of AI and OR Techniques in Constraint Programming for Combinatorial Optimization Problems (CP-AI-OR 2014)</a>, 2014. [<a href="publications/pdds.pdf">paper</a>]
+		</li>
+	</ul>
+
+	<h3>2013</h3>
+	<ul>
+		<li class="paper">
+			  Thierry Moisan, <a href="http://www.linkedin.com/in/jonathangaudreault"> Jonathan Gaudreault</a> and <a href="http://www.ift.ulaval.ca/~quimper">Claude-Guy Quimper</a>. 
+			  <i>Parallel discrepancy-based search</i>. 
+			In Proceedings of the <a href="http://cp2013.a4cp.org/">In 19th Principles and Practice of Constraint Programming, pages 30–46. Springer, 2013</a>.
+			<br>
+			<b>Best paper award</b>
+			<br>
+			[<a href="publications/pldscp2013.pdf">paper</a>]
+		</li>
+	</ul>
+	
 	<h2>Workshop</h2>
+
 	<h3>2011</h3>
 	<ul>
 	  <li class="paper">
 	    Thierry Moisan, <a href="http://www.linkedin.com/in/jonathangaudreault"> Jonathan Gaudreault</a>, and <a href="http://www.ift.ulaval.ca/~quimper">Claude-Guy Quimper</a>. <i>Parallel Discrepancy-based Search: An efficient and scalable search strategy for massively parallel supercomputers providing intrinsic load-balancing without communication.</i> In Proceedings of the <a href="http://webia.lip6.fr/~codognet/PMCS11">Workshop on Parallel Methods for Constraint Solving (PMCS'11)</a>, held with <a href="http://www.dmi.unipg.it/cp2011/">17th International Conference on Principles and Practice of Constraint Programming (CP'11)</a>, 2011.[<a href="publications/plds.pdf">paper</a>]
 	  </li>
 	</ul>
+
 	<div id="services">
 	  <h1><i class="fa fa-random"></i> Services</h1>
 	  <ul>
 	    <li>Publicity Chair for the <a href="http://www.cp2012.org/">CP 2012 conference</a></li>
 	    <li>Reviewer for the <a href="http://www.cp2012.org/">CP 2012 conference</a></li>
 	  </ul>
+	</div>
+
+	<div id="grants">
+		<h1><i class="icon-trophy"></i> Grants</h1>
+		<ul>
+			<li><a href="https://www.cirrelt.ca/">CIRRELT</a> <a href="https://www.cirrelt.ca/Cirrelt/Images/File/ResultatsConcoursBoursesCIRRELT2013-2014-.pdf">PhD Excellence Grant (2013-2014)</a></li>
+		</ul>
 	</div>
       </div>
       <div class="footer"></div>

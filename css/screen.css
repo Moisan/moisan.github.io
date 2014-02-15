@@ -1,7 +1,6 @@
 /* Global Reset */
 * {
     margin: 0;
-    padding: 0;
 }
 
 html, body {
@@ -77,6 +76,10 @@ width: 500px;
     font-weight: bold;
     margin-bottom: 2em;
     margin-left: 15px;
+}
+
+.paper{
+    padding:10;
 }
 
 #home {
