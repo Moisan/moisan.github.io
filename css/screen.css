@@ -3,15 +3,8 @@
     margin: 0;
 }
 
-html, body {
-    /* to get the whole page visible, I think */
-    height: 100%;
-    color: rgb(38,40,49);
-}
-
-
 body {
-    background-color: #6E86D6;
+    background-color: #bbb8b3; /*#6E86D6;*/
     font: 13.34px helvetica, arial, clean, sans-serif;
     *font-size: small;  
     text-align: center;
@@ -19,20 +12,27 @@ body {
 
 h1 {
     margin-top: 0.5em;
-}
-
-h1 {
-    margin-top: 1em;
     margin-bottom: 0.5em;
 }
 
+h2 {
+    margin-left: 0.25em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    margin-left:0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
 
 p {
     margin: 1em 0;
 }
 
 a {
-   color: #50026E; 
+   color: #364b66; 
 }
 
 a:hover {
@@ -72,7 +72,6 @@ width: 500px;
 }
 
 .title {
-    color: #50026E;
     font-weight: bold;
     margin-bottom: 2em;
     margin-left: 15px;
@@ -85,7 +84,7 @@ width: 500px;
 #home {
     border-style: solid;
     border-width: 10px 10px 10px 10px;
-    border-color: #50026E;
+    border-color: #364b66;
     border-radius: 15px;
 
     padding: 0 30px 20px 30px;
@@ -94,7 +93,7 @@ width: 500px;
 }
 
 .site .title a {
-    color: #50026E;
+    color: #364b66;
     text-decoration: none;
 }
 
