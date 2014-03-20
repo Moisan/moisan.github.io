@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #bbb8b3; /*#6E86D6;*/
+    background-color: rgb(157,197,223);
     font: 13.34px helvetica, arial, clean, sans-serif;
     *font-size: small;  
     text-align: center;
