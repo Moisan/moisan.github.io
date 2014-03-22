@@ -1,30 +1,20 @@
-/* Global Reset */
-* {
-    margin: 0;
-}
-
 body {
     background-color: rgb(157,197,223);
-    font: 13.34px helvetica, arial, clean, sans-serif;
-    *font-size: small;  
-    text-align: center;
-}
-
-h1 {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    font: normal 100% helvetica, arial, clean, sans-serif;
+    text-align: justify;
+    padding: 0 2em;
 }
 
 h2 {
-    margin-left: 0.25em;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin: 0.5em 0.25em;
 }
 
 h3 {
-    margin-left:0.5em;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin: 0.5em 0.5em;
+}
+
+h4 {
+    margin: 0.5em 0.75em;
 }
 
 p {
@@ -39,72 +29,39 @@ a:hover {
     color: black;
 }
 
-/*TODO : do I even need that? */
-/*
-a:visited {
-    color: rgb(254,210,123);
-}*/
-
-table {
-    font-size: inherit;
-    font: 100%;
-}
-
-/* If I want some columns */
-/*
-  #aboutMe {
-  float: left;
-  width: 500px;
-  }
-
-#searchInterests {
-float: right;
-width: 500px;
-}
-*/
-
 .site {
-    font-size: 110%;
-    text-align: justify;
-    width: 45em;
-    margin: 3em auto 5em auto;
+    width: auto;
+    max-width: 850px;
+    margin: 3em auto;
     line-height: 1.5em;
 }
 
 .title {
-    font-weight: bold;
-    margin-bottom: 2em;
-    margin-left: 15px;
+    margin: 0.5em auto;
+    padding: 0 1.4em;
 }
 
 .paper{
-    padding:10;
+    margin:0.4em;
+}
+
+ol{
+    list-style: none;
 }
 
 #home {
     border-style: solid;
-    border-width: 10px 10px 10px 10px;
+    border-width: 0.4em 0.4em 0.4em 0.4em;
     border-color: #364b66;
-    border-radius: 15px;
+    border-radius: 1.6em;
 
-    padding: 0 30px 20px 30px;
-    box-shadow: 1px 1px 12px #555;
-    margin-bottom: 5em;
+    padding: 0 1em 0.8em;
+    box-shadow: 0.04em 0.04em 0.5em #555;
+    margin: 0 auto;
 }
 
 .site .title a {
     color: #364b66;
-    text-decoration: none;
-}
-
-.site .title a:hover {
-    color: black;
-}
-
-.site .title a.extra {
-    color: rgb(161,98,91);
-    text-decoration: none;
-    margin-left: 1em;
 }
 
 .site .title a.extra:hover {
@@ -116,7 +73,6 @@ width: 500px;
 }
 
 .site .footer {
-    font-size: 80%;
     margin-top: 2em;
     height:1em;
     overflow: hidden;
@@ -135,4 +91,24 @@ width: 500px;
 
 .site .footer .rss img {
     border: 0;
+}
+
+@media screen and (max-width: 450px) {
+    body{
+        padding: 0;
+    }
+    /*remove hover for mobile devices*/
+    a:hover{
+    }
+
+    .site{
+        text-align: left;
+        margin: 0.5em;
+    }
+
+    #home{
+        border-style: none;
+        box-shadow:none;
+        padding:none;
+    }
 }
